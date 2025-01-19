@@ -1,18 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
 <body>
-
-<h2>HTML Forms</h2>
-
-<form action="/teste.html">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="Ueliton"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Fermino"><br><br>
-  <input type="submit" value="Submit">
-</form> 
-
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-
+    <header>
+        <h1>Bem-vindo ao Meu Primeiro Site</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="novo.html">Novo</a>
+        <a href="segundo.html">Segundo</a>
+        <a href="teste.html">Teste</a>
+        <a href="vs-code.html">VS Code</a>
+    </nav>
+    <main>
+        <h2>Seção Principal</h2>
+        <p>Este é o layout básico para a página inicial do meu site. Sinta-se à vontade para personalizar!</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ueliton FOX. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>

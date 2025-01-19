@@ -1,130 +1,83 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Primeiro Site - Talento Tech</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background: #333;
-            color: #fff;
-            padding: 10px 20px;
-            text-align: center;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #444;
-            padding: 10px 0;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            color: #00bcd4;
-        }
-
-        main {
-            padding: 20px;
-            text-align: center;
-        }
-
-        .cards {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin-top: 20px;
-        }
-
-        .card {
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            padding: 20px;
-            width: 300px;
-            text-align: center;
-            background-color: #fff;
-        }
-
-        .card a {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #4682b4;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-
-        .card a:hover {
-            background-color: #005f80;
-        }
-
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: relative;
-            width: 100%;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Ueliton Fermino</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
 </head>
-<body>
-    <header>
-        <h1>Bem-vindo ao Meu Primeiro Site</h1>
-    </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="novo.html">Novo</a>
-        <a href="segundo.html">Segundo</a>
-        <a href="teste.html">Teste</a>
-        <a href="vs-code.html">VS Code</a>
-    </nav>
-    <main>
-        <h2>Explore o Meu Primeiro Site</h2>
-        <p>
-            Bem-vindo ao meu site exclusivo para as atividades do curso <strong>Talento Tech 11 - Desenvolvimento Web</strong>. 
-            Aqui estão exercícios práticos e conteúdos desenvolvidos durante o aprendizado.
-        </p>
-        <div class="cards">
-            <!-- Card 1 -->
-            <div class="card">
-                <h3>Aprenda HTML</h3>
-                <p>Entenda como criar páginas web incríveis com HTML, a base de toda a web.</p>
-                <a href="https://www.w3schools.com/html/" target="_blank">Saiba Mais</a>
-            </div>
-            <!-- Card 2 -->
-            <div class="card">
-                <h3>Hospede no GitHub</h3>
-                <p>Veja como publicar seu site de forma gratuita no GitHub Pages.</p>
-                <a href="https://pages.github.com/" target="_blank">Saiba Mais</a>
-            </div>
+<body class="bg-dark text-light">
+
+  <!-- Cabeçalho -->
+  <header class="text-center py-5 bg-secondary">
+    <h1>Bem-vindo ao Portfólio de Ueliton Fermino</h1>
+    <p>"Barbeiro, Estudante de Educação Física e Desenvolvedor em Ascensão"</p>
+  </header>
+
+  <!-- Sobre Mim -->
+  <section class="container my-5">
+    <h2 class="text-center">Sobre Mim</h2>
+    <p class="text-center">
+      Sou barbeiro profissional com experiência em atendimento ao cliente e administração de negócios.
+      Atualmente, estou cursando Educação Física e explorando novas habilidades em desenvolvimento web
+      por meio do programa Talento Tech.
+    </p>
+  </section>
+
+  <!-- Talento Tech -->
+  <section class="container my-5">
+    <h2 class="text-center">Sobre o Programa Talento Tech</h2>
+    <p class="text-center">
+      O <strong>Talento Tech</strong> é uma iniciativa do Governo do Paraná em parceria com universidades e empresas, que visa
+      capacitar estudantes na área de tecnologia, promovendo o desenvolvimento regional e inserindo alunos no mercado de trabalho.
+    </p>
+    <h4 class="mt-4">Objetivos do Programa:</h4>
+    <ul class="list-group">
+      <li class="list-group-item bg-dark text-light">Capacitar jovens em Tecnologia da Informação e Comunicação (TIC).</li>
+      <li class="list-group-item bg-dark text-light">Promover desenvolvimento regional e oportunidades de emprego.</li>
+      <li class="list-group-item bg-dark text-light">Alinhar governo, academia e empresas para inovação no Paraná.</li>
+    </ul>
+  </section>
+
+  <!-- Disciplinas Concluídas -->
+  <section class="container my-5">
+    <h2 class="text-center">Disciplinas Concluídas</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-3">
+        <div class="card bg-secondary text-light">
+          <div class="card-body">
+            <h5 class="card-title">Introdução à Tecnologia da Informação</h5>
+            <p class="card-text">83% Completo</p>
+          </div>
         </div>
-        <section style="margin-top: 40px; text-align: center;">
-            <h3>Sobre o Curso Talento Tech</h3>
-            <p>
-                O curso <strong>Talento Tech 11</strong> é voltado para o desenvolvimento de habilidades práticas em tecnologias da web.
-                Este site foi criado para hospedar e demonstrar as atividades desenvolvidas ao longo do aprendizado.
-            </p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 - Desenvolvido por UelitonFOX</p>
-    </footer>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card bg-secondary text-light">
+          <div class="card-body">
+            <h5 class="card-title">Programação em Python</h5>
+            <p class="card-text">91% Completo</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card bg-secondary text-light">
+          <div class="card-body">
+            <h5 class="card-title">Fundamentos de Banco de Dados</h5>
+            <p class="card-text">90% Completo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <p>Além destas, outras disciplinas como Fundamentos de Lógica, Inglês Técnico, e Programação Orientada a Objetos também foram exploradas.</p>
+    </div>
+  </section>
+
+  <!-- Contatos -->
+  <footer class="text-center py-3 bg-secondary">
+    <h5>Contatos</h5>
+    <p>GitHub: <a href="https://github.com/UelitonFOX" class="text-light">https://github.com/UelitonFOX</a></p>
+  </footer>
+
 </body>
 </html>
